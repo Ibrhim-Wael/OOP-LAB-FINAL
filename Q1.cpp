@@ -31,11 +31,11 @@ bool operator ==(Student s1)//Operator Overloading Function
     if(calculateAverage()==s1.calculateAverage()){return 1;}
     else{return 0;}
 }
-void setmarks(int i)
+void setmarks(int n)
 {
 for (int i = 0; i < 3; i++)
 {
-    cout<<"Please enter the mark for subject no "<<(i+1)<<" to student no "<<(i+1)<<endl;
+    cout<<"Please enter the mark for subject no "<<(i+1)<<" to student no "<<(n+1)<<endl;
     cin>>marks[i];
 }
 }
